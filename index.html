@@ -6,14 +6,15 @@
     <script src="https://kit.fontawesome.com/85ac7332e6.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Logo.png"  type="image/png">
     <title>Sauvons les animaux</title>
 </head>
 <body>
     <header>
-        <nav>
-            <img id="logo" src="Logo.png" alt="logo">
+        <nav class="navbar">
+            <img id="logo" src="Logo.png" class="rounded w-auto"  alt="logo">
             <a href="index.html">Accueil</a>
-            <a href="Contact.html">Nous Contacter</a>
+            <a href="#nouscontacter">Nous Contacter</a>
             <a href="pub.html">Page Publicitaire</a>
         </nav>
     </header>
@@ -28,7 +29,7 @@
             grâce à notre communauté, nous pouvons mener à bien nos différentes actions !
             Contribuez au mouvement !!
             </p>
-            <div class="container bg-warning bg-gradient shadow-lg rounded text-center p-4">
+            <div class="container shadow-lg bg-warning rounded text-center p-4">
                 <h3>Ce qui nous motives</h3>
                 <h1>Notre mission</h1>
                 <p>Tout au long de l'année notre équipe met tout en oeuvre pour sensibilisé
@@ -83,7 +84,7 @@
     <footer class="text-light bg-black container-fluid m-0">
         <div class="row align-items-center">
             <div class="contact col m-2">
-                <h3>Nous Contacter</h3>
+                <h3 id="nouscontacter">Nous Contacter</h3>
                 <ul>
                     <li><a href="mailto:sauveranimaux@gmail.com">sauveranimaux@gmail.com</a></li>
                     <li><a href="tel:+33601958378">06.01.95.83.78</a></li>
@@ -93,7 +94,7 @@
                 <h3>Abonnez-vous</h3>
                 <input type="text" class="form-control-sm" placeholder="nom">
                 <input type="email" class="form-control-sm" placeholder="email">
-                <input type="button" class="form-control-sm" value="Abonnez">
+                <input type="button" class="btn btn-primary w-auto" value="Abonnez">
             </div>
         </div>
         <nav class="d-flex justify-content-between">
