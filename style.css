@@ -17,7 +17,6 @@ body{
     
 }
 header a{
-
     padding-right: 10px;
     text-decoration: none;
     color: gray;
@@ -47,4 +46,8 @@ nav{
 
 .items{
     padding-right: 10px;
+}
+
+.tranche{
+    background: linear-gradient(to left ,#022443 50%,#06330c 50%);
 }
