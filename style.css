@@ -8,6 +8,7 @@ header{
 body{
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
+    background: #000;
 }  
 
 #logo{
