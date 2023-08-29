@@ -7,7 +7,8 @@ header{
 
 body{
     margin: 0;
-}
+    font-family: 'Times New Roman', Times, serif;
+}  
 
 #logo{
     width: 100px;
@@ -28,6 +29,7 @@ nav{
 
 #image1{
     width: 100%;
+    height: 70vh;
     margin: 0;
 }
 
@@ -41,4 +43,8 @@ nav{
 
 .contact{
     padding-left: 10px;
+}
+
+.items{
+    padding-right: 10px;
 }
