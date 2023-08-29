@@ -22,6 +22,15 @@ header a{
     color: gray;
 }
 
+header a:hover{
+    color:aliceblue
+}
+
+header a:active{
+    color: aliceblue;
+}
+
+
 nav{
     display: flex;
 }
