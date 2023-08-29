@@ -8,15 +8,15 @@ header{
 body{
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
+    background: #000;
 }  
 
 #logo{
     width: 60px;
     height: 60px;
-    padding-right:75%;
+    
 }
 header a{
-
     padding-right: 10px;
     text-decoration: none;
     color: gray;
@@ -46,4 +46,8 @@ nav{
 
 .items{
     padding-right: 10px;
+}
+
+.tranche{
+    background: linear-gradient(to left ,#022443 50%,#06330c 50%);
 }
