@@ -1,3 +1,81 @@
-body{
-    margin: 0;
+#image1{
+    width: 100vw;
+    height: 35vh;
 }
+
+#logo{
+    width: 4rem;
+    height: 4rem;
+}
+
+header{
+    background-color: black;
+    opacity: 0.7;
+    position: fixed;
+    width: 100%;
+}
+
+header a{
+    text-decoration: none;
+    padding: 0.009rem;
+    color: gray;
+    width: 100%;
+}
+
+nav{
+    white-space: nowrap;
+    height: 4rem;
+}
+
+.tranche{
+    background:linear-gradient(to bottom ,rgb(7, 93, 63) 50%,rgb(8, 86, 155) 50%);
+    height: 100%;
+}
+
+main{
+    height: 100%;
+    text-align: start;
+    justify-content: center;
+}
+
+h1,h2,h3,h6{
+    text-align: center;
+    text-decoration: underline;
+    padding: 0.4rem;
+}
+
+.divjaune{
+    background-color:rgb(196, 196, 0);
+    border-radius: 15px;
+    width: 90%;
+    margin-left: 5%;
+    padding: 0.5rem;
+    box-shadow: 0px 0px 5px 1px;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.divfooter{
+    padding:1rem;
+}
+
+header a:hover{
+    color: aliceblue;
+}
+
+.paragraphe1{
+    padding-left: 0.5rem;
+}
+
+#contenu{
+    flex-direction: column;
+}
+@media screen and (m) {
+    
+}
+
+
+
