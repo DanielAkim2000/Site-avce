@@ -1,6 +1,7 @@
 #image1{
     width: 100vw;
-    height: 35vh;
+    height: 25vh;
+    margin: 0;
 }
 
 #logo{
@@ -17,9 +18,9 @@ header{
 
 header a{
     text-decoration: none;
-    padding: 0.009rem;
     color: gray;
-    width: 100%;
+    padding-right: 0.5rem;
+    
 }
 
 nav{
@@ -55,6 +56,7 @@ h1,h2,h3,h6{
 
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
     
 }
 
@@ -72,10 +74,65 @@ header a:hover{
 
 #contenu{
     flex-direction: column;
+    display: flex;
 }
-@media screen and (m) {
-    
+
+.navbarheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap:nowrap;
+    width: 100%;
+    align-items: center;
 }
+
+.balisenav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+@media screen and (min-width:500px) {
+    #image1{
+        height: 35vh;
+    }
+}
+
+@media screen and (min-width:850px) {
+    #image1{
+        height: 40vh;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    #image1{
+        height: 60vh;
+    }
+
+    header a{
+        padding-right: 1rem;
+    }
+    .textacentrer{
+        text-align: center;
+    }
+
+    .divfooter{
+        flex-direction: row;
+        display: flex;
+        justify-content:space-between;
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+
+    .divabonnezvous{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: normal;
+    }
+
+}
+
 
 
 
