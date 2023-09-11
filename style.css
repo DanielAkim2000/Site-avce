@@ -1,25 +1,26 @@
-header{
-    width: 100%;
-    background-color: black;
-    position: fixed;
-    opacity: 0.7;
-}
-
-body{
+#image1{
+    width: 100vw;
+    height: 25vh;
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    background: #000;
-}  
+}
 
 #logo{
-    width: 60px;
-    height: 60px;
-    
+    width: 4rem;
+    height: 4rem;
 }
+
+header{
+    background-color: black;
+    opacity: 0.7;
+    position: fixed;
+    width: 100%;
+}
+
 header a{
-    padding-right: 10px;
     text-decoration: none;
     color: gray;
+    padding-right: 0.5rem;
+    
 }
 
 header a:hover{
@@ -32,31 +33,116 @@ header a:active{
 
 
 nav{
-    display: flex;
-}
-
-#image1{
-    width: 100%;
-    height: 70vh;
-    margin: 0;
-}
-
-#contenu{
-    margin: 0;
-}
-
-.franche{
-    background: linear-gradient(to bottom ,#1ea365 50%,#0dc6eb 50%);
-}
-
-.contact{
-    padding-left: 10px;
-}
-
-.items{
-    padding-right: 10px;
+    white-space: nowrap;
+    height: 4rem;
 }
 
 .tranche{
-    background: linear-gradient(to left ,#022443 50%,#06330c 50%);
+    background:linear-gradient(to bottom ,rgb(7, 93, 63) 50%,rgb(8, 86, 155) 50%);
+    height: 100%;
 }
+
+main{
+    text-align: start;
+    justify-content: center;
+    height: 100%;
+}
+
+h1,h2,h3,h6{
+    text-align: center;
+    text-decoration: underline;
+    padding: 0.4rem;
+}
+
+.divjaune{
+    background-color:rgb(196, 196, 0);
+    border-radius: 15px;
+    width: 90%;
+    margin-left: 5%;
+    padding: 0.5rem;
+    box-shadow: 0px 0px 5px 1px;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    background-color: black;
+    
+}
+
+.divfooter{
+    padding:1rem;
+}
+
+header a:hover{
+    color: aliceblue;
+}
+
+.paragraphe1{
+    padding-left: 0.5rem;
+}
+
+#contenu{
+    flex-direction: column;
+    display: flex;
+}
+
+.navbarheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap:nowrap;
+    width: 100%;
+    align-items: center;
+}
+
+.balisenav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+@media screen and (min-width:500px) {
+    #image1{
+        height: 35vh;
+    }
+}
+
+@media screen and (min-width:850px) {
+    #image1{
+        height: 40vh;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    #image1{
+        height: 60vh;
+    }
+
+    header a{
+        padding-right: 1rem;
+    }
+    .textacentrer{
+        text-align: center;
+    }
+
+    .divfooter{
+        flex-direction: row;
+        display: flex;
+        justify-content:space-between;
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+
+    .divabonnezvous{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: normal;
+    }
+
+}
+
+
+
+
