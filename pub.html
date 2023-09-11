@@ -17,11 +17,14 @@
 </head>
 <body>
     <header>
-        <nav class="d-inline-block">
-            <img id="logo" src="Logo.png" class="rounded me-auto w-auto"  alt="logo">
-            <a href="index.html">Accueil</a>
-            <a href="#nouscontacter">Nous Contacter</a>
-            <a href="pub.html">Page Publicitaire</a>
+        <nav class="balisenav">
+            <img id="logo" src="Logo.png" alt="logo">
+            <div class="navbarheader">
+                <a href="index.html">Accueil</a>
+                <a href="#nouscontacter">Nous Contacter</a>
+                <a href="pub.html">Pub Event</a>
+            </div>
+            
         </nav>
     </header>
     <div id="contenu">
@@ -36,7 +39,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10798.06126896434!2d0.6830911!3d47.4213943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcd5b666eb0b77%3A0xeca431983019899a!2sM%C3%A9diath%C3%A8que%20Fran%C3%A7ois%20Mitterrand!5e0!3m2!1sfr!2sfr!4v1693280877416!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <p>Dates et horaires de début et de fin (année – mois – jour – heure) : <br>2023-08-29T17:00:00+02:00 – 2023-08-29T20:00:00+02:00 <br> 2023-08-29T17:00:00+02:00 – 2023-08-29T20:00:00+02:00</p>
             </div>
-            <div class="d-flex tranche flex-row ">
+            <div class="d-flex bg-warning flex-row ">
                 <div class="flex-fill d-flex flex-column align-items-center">
                         <h5 class="m-4 text-decoration-underline">Détails:</h5>
                         <ul>
@@ -57,27 +60,29 @@
         </div>
     </div>
     <footer>
-        <div class="row align-items-center">
-            <div class="contact col ">
-                <h3 id="nouscontacter" class="text-decoration-underline">Nous Contacter:</h3>
+        <div class="divfooter">
+            <div>
+                <h3 id="nouscontacter">Nous Contacter:</h3>
                 <ul>
                     <li><a href="mailto:sauveranimaux@gmail.com">sauveranimaux@gmail.com</a></li>
                     <li><a href="tel:+33601958378">06.01.95.83.78</a></li>
                 </ul>
             </div>
-            <div class="col">
+            <div class="divabonnezvous">
                 <h3>Abonnez-vous</h3>
                 <input type="text" class="form-control-sm" placeholder="nom">
                 <input type="email" class="form-control-sm" placeholder="email">
                 <input type="button" class="btn btn-primary w-auto" value="Abonnez">
             </div>
         </div>
-        <nav class="d-flex justify-content-between">
-            <div class="">2020-2023|Sauvez les Animaux</div>
-            <div class="items">
-                <i class="fa-brands fa-facebook fa-xl" style="color: #919191;"></i>
-                <i class="fa-brands fa-instagram fa-xl" style="color: #919191;"></i>
-                <i class="fa-brands fa-twitter fa-xl" style="color: #919191;"></i>
+        <nav class="">
+            <div class="row h-100 w-100 align-content-end">
+                <div class="col-8">2020-2023|Sauvez les Animaux</div>
+                <div class="col-4 text-end p-0">
+                    <i class="fa-brands fa-facebook fa-xl" style="color: #919191;"></i>
+                    <i class="fa-brands fa-instagram fa-xl" style="color: #919191;"></i>
+                    <i class="fa-brands fa-twitter fa-xl" style="color: #919191;"></i>
+                </div>
             </div>
         </nav>
     </footer>
